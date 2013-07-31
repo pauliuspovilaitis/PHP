@@ -43,7 +43,7 @@ ORDER BY tiketo_numeris
 
 $csv_output="";    
     
-$result = mysql_query($sql) or die(mysql_error());;
+$result = mysql_query($sql) or die(mysql_error());
 $i = 0;
 
 if (mysql_num_rows($result) > 0) {
