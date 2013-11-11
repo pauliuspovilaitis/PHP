@@ -11,9 +11,8 @@
        
     $start = $_GET['period_start']. " 00:00:00"; 
     $start_clean = mysql_real_escape_string($start);
-	
-	  $end = $_GET['period_end']. " 23:59:59"; 
-	  $end_clean = mysql_real_escape_string($end);
+    $end = $_GET['period_end']. " 23:59:59"; 
+    $end_clean = mysql_real_escape_string($end);
 	
 	
 	
