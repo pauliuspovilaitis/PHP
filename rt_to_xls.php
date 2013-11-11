@@ -6,7 +6,7 @@
     $DBLogin = "XXX"; 
     $DBPassword = "XXX"; 
  
-    mysql_connect("$DBHost", "$DBLogin", "$DBPassword"); 
+    mysql_connect("$DBHost", "$DBLogin", "$DBPassword") or die('error while connecting'); 
     @mysql_select_db("rt3"); 
        
     $start = $_GET['period_start']. " 00:00:00"; 
