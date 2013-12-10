@@ -1,9 +1,11 @@
 <?php
 require_once 'config.ini.php';
 
+global $dbhc;
+
 class database
 {
-	public $dbhc;
+//	public $dbhc;
 	private static $instance;
 
 	private function __construct()
