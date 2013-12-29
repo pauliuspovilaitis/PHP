@@ -1,6 +1,5 @@
-
 $a = "C:/dir/file.php";
-echo basename($a);
+basename($a);
 //outpu: file.php
 //escapes dir to avoid injection. 
 
