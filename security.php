@@ -13,3 +13,8 @@ htmlentities ($string,FLAGS);
 
 strip_tags ($string,$allowable_tags);   
 // remove all tags [opening&closing] (except $allowable_tags) from the string
+
+chr($ascii);   
+// return the special character, e.g. chr(10) -> \n
+ord($string);    
+// return the ASCII value, e.g. ord(“\n”) -> 10
