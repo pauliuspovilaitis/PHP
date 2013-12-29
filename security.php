@@ -17,3 +17,4 @@ chr($ascii);
 // return the special character, e.g. chr(10) -> \n
 ord($string);    
 // return the ASCII value, e.g. ord(“\n”) -> 10
+mysqli_real_escape_string($string);
